@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+    ;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    padding: 4.5rem 0;
+    width: 100%;
+    min-height: 80vh;
+}
+
+footer {
+    padding: 4.5rem 0;
+    width: 100%;
+    background-color: #343a40;
+}
+
+.divided-line {
+    color: rgba(73, 80, 87, 0.5);
+
+}
+
+.text-cm-head {
+    color: #adb5bd;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.text-cm-title {
+    font-size: 3.2rem;
+    text-align: center;
+    color: #111;
+}
+
+.text-cm-subtitle {
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: center;
+    color: #111;
+    width: 70%;
+    margin: 0 auto;
+}
+
+
+.header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://wingman.mediumra.re/assets/img/photo-road.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    color: #fff;
+}
+
+.header .title {
+    font-size: 4.5em;
+}
+
+.header .subtitle {
+    width: 70%;
+    font-size: 1.5rem;
+}
+
+.header .form {
+    width: 70%;
+    padding: 1rem;
+}
+
+.header h4 span {
+    padding: 1rem;
+}
+
+.main-section-1 ul li {
+    text-align: justify;
+}
+
+.main-section-1 ul li a {
+    text-decoration: none;
+}
+
+.main-section-1 ul li img {
+    width: 80%;
+    object-fit: cover;
+}
+
+.main-section-2 .partiner-imgs {
+    padding: 2rem;
+
+}
+
+.main-section-2 .partiner-imgs img {
+    width: 120px;
+
+}
+
+.main-section-2 .accordion .accordion-item {
+
+    border: 0;
+    border-bottom: 1px solid #dee2e6;
+    color: #adb5bd;
+}
+
+.main-section-2 .accordion {
+    --bs-accordion-btn-focus-box-shadow: #fff;
+    --bs-accordion-btn-focus-border-color: #fff;
+}
+
+.main-section-2 .accordion .accordion-item button {
+    color: #adb5bd;
+    font-size: 0.9rem;
+    transition: all .5s ease;
+}
+
+.main-section-2 .accordion .accordion-item button::after {
+    --bs-accordion-btn-icon-width: .7rem;
+    --bs-accordion-btn-icon-width: .7rem;
+}
+
+.main-section-2 .accordion .accordion-item button[aria-expanded="true"] {
+    color: #111
+}
+
+.main-section-2 .accordion .accordion-item button:hover,
+.main-section-2 .accordion .accordion-body {
+    color: #111;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: transparent !important;
+}
+
+.main-section-3 .no-gutters .img-div img {
+    object-fit: cover;
+    height: 550px;
+}
+
+
+footer .footer-logo p {
+    font-size: .9rem;
+    color: #adb5bd;
+}
+
+footer .footer-logo img {
+    margin-bottom: 1rem;
+}
+
+.footer-listes ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+.footer-listes .list-header {
+    padding-bottom: .5rem;
+    font-weight: 700;
+    color: #adb5bd;
+}
+
+.footer-listes ul li {
+    font-size: .9rem;
+}
+
+.footer-listes ul li a:hover {
+    color: #111;
+}
+
+@media only screen and (max-width: 768px) {
+    .text-cm-title {
+        font-size: 2.5rem;
+    }
+
+    .text-cm-subtitle {
+        font-size: 1rem;
+        width: 90%;
+
+    }
+
+    .header .title {
+        font-size: 3em;
+    }
+
+    .header .subtitle {
+        width: 70%;
+        font-size: .9rem;
+    }
+
+    .header h4 span {
+        padding: 1rem;
+        font-size: .7rem;
+    }
+
+    .header .form {
+        width: 100%;
+    }
+
+    .main-section-1 ul li img {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .main-section-3 .no-gutters {
+        flex-direction: column-reverse;
+    }
+
+    .main-section-3 .no-gutters .img-div img {
+        height: 500px;
+    }
+
+    .main-section-3 .no-gutters .text-div {
+        padding-top: 1rem;
+    }
+
+
+}
